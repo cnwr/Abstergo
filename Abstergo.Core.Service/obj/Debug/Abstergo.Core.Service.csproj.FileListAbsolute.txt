@@ -1,0 +1,5 @@
+C:\Projects\Abstergo\Abstergo.Core.Service\bin\Debug\Abstergo.Core.Service.dll
+C:\Projects\Abstergo\Abstergo.Core.Service\bin\Debug\Abstergo.Core.Service.pdb
+C:\Projects\Abstergo\Abstergo.Core.Service\obj\Debug\Abstergo.Core.Service.csprojResolveAssemblyReference.cache
+C:\Projects\Abstergo\Abstergo.Core.Service\obj\Debug\Abstergo.Core.Service.dll
+C:\Projects\Abstergo\Abstergo.Core.Service\obj\Debug\Abstergo.Core.Service.pdb

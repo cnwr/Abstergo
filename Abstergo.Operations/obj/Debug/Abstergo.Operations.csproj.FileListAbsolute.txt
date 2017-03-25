@@ -1,0 +1,53 @@
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Operations.dll.config
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Operations.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Operations.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Core.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Dal.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Entities.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\DMessage.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Microsoft.ServiceBus.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\BitlyDotNET.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\QRCoder.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\zxing.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Twilio.Api.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\UnityEngine.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Core.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Dal.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Entities.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.xml
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\zxing.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\zxing.xml
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Twilio.Api.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Debug\Twilio.Api.xml
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\obj\Debug\Abstergo.Operations.csprojResolveAssemblyReference.cache
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\obj\Debug\Abstergo.Operations.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\obj\Debug\Abstergo.Operations.pdb
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Operations.dll.config
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Operations.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Operations.pdb
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Core.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Dal.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Entities.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Microsoft.ServiceBus.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\BitlyDotNET.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\QRCoder.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\zxing.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Twilio.Api.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\UnityEngine.dll
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Core.pdb
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Dal.pdb
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Abstergo.Entities.pdb
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.xml
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\zxing.pdb
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\zxing.xml
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Twilio.Api.pdb
+C:\Projects\Abstergo\Abstergo.Operations\bin\Debug\Twilio.Api.xml
+C:\Projects\Abstergo\Abstergo.Operations\obj\Debug\Abstergo.Operations.csprojResolveAssemblyReference.cache
+C:\Projects\Abstergo\Abstergo.Operations\obj\Debug\Abstergo.Operations.dll
+C:\Projects\Abstergo\Abstergo.Operations\obj\Debug\Abstergo.Operations.pdb

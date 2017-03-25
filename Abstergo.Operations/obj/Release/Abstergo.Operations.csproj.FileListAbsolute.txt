@@ -1,0 +1,7 @@
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Release\Abstergo.Operations.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Release\Abstergo.Operations.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Release\Abstergo.Entities.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\bin\Release\Abstergo.Entities.pdb
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\obj\Release\Abstergo.Operations.csprojResolveAssemblyReference.cache
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\obj\Release\Abstergo.Operations.dll
+C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Operations\obj\Release\Abstergo.Operations.pdb
