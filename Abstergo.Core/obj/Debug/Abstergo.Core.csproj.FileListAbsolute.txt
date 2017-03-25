@@ -33,7 +33,6 @@ C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Dal.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Entities.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\QRCoder.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\RestSharp.dll
-C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Twilio.Api.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\UnityEngine.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.presentation.dll
@@ -41,8 +40,6 @@ C:\Projects\Abstergo\Abstergo.Core\bin\Debug\EntityFramework.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Dal.pdb
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Entities.pdb
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\RestSharp.xml
-C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Twilio.Api.pdb
-C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Twilio.Api.xml
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.pdb
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.xml
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.presentation.pdb

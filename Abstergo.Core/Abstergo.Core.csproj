@@ -36,9 +36,6 @@
     <Reference Include="BitlyDotNET">
       <HintPath>..\..\..\..\..\..\..\CustomDLL\BitlyDotNET.dll</HintPath>
     </Reference>
-    <Reference Include="DMessage">
-      <HintPath>..\..\..\..\..\..\..\CustomDLL\DMessage.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.ServiceBus">
       <HintPath>..\..\..\..\..\..\..\CustomDLL\Microsoft.ServiceBus.dll</HintPath>
     </Reference>
@@ -65,10 +62,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Twilio.Api, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Twilio.4.7.2\lib\3.5\Twilio.Api.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\QRCoder.1.2.3\lib\net40\UnityEngine.dll</HintPath>
       <Private>True</Private>
@@ -83,7 +76,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\AbstergoCore.cs" />
     <Compile Include="Common\AttributeManager.cs" />
     <Compile Include="Common\AzureServiceBus.cs" />
     <Compile Include="Common\Bitly.cs" />
@@ -95,7 +87,6 @@
     <Compile Include="Common\LogMan.cs" />
     <Compile Include="Common\PasswordManager.cs" />
     <Compile Include="Common\TcpClientManager.cs" />
-    <Compile Include="Common\Twilio.cs" />
     <Compile Include="Common\MessageProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CommonService.cs" />

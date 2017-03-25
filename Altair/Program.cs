@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Builder;
 
-namespace Abstergo.WebApi
+namespace Altair
 {
     public class Program
     {
@@ -18,7 +18,6 @@ namespace Abstergo.WebApi
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
-
 
             host.Run();
         }
