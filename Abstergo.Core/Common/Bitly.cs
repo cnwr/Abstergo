@@ -1,5 +1,7 @@
-﻿using BitlyDotNET.Implementations;
+﻿using Abstergo.Entities.Shared;
+using BitlyDotNET.Implementations;
 using BitlyDotNET.Interfaces;
+using RestSharp.Extensions.MonoHttp;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,41 +13,46 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Xml;
 
-namespace Abstergo
+
+
+namespace Abstergo.Core.Common
 {
     class Bitly
-    {
-        const string password = "R_b2332506d9fe495ca8999cbd6a58047e";
-        const string userName = "o_2get038h6b";
-        const string urlToShorten = "http://google.com";
+    {   
+        private const string password = "R_b2332506d9fe495ca8999cbd6a58047e";
+        private const string userName = "o_2get038h6b";
+        private const string token = "2fd5c5dfb2bc3451367030c3c19f73d95f7f6fe2";
+        private const string urlToShorten = "http://google.com";
 
-        public static string statusCode = string.Empty;
-        public static string statusText = string.Empty;
-        public static string shortUrl = string.Empty;
-        public static string longUrl = string.Empty;
-        public static void BitlyFromWebRequest() {
+        private static string statusCode = string.Empty;
+        private static string statusText = string.Empty;
+        private static string shortUrl = string.Empty;
+        private static string longUrl = string.Empty;
+
+        [TestMethod("Web Request atarak shorten url doner.")]
+        public void BitlyFromWebRequest() {
 
             XmlDocument xmlDoc = new XmlDocument();                 
 
-            WebRequest request = WebRequest.Create("http://api.bitly.com/v3/shorten");
+            var request = WebRequest.Create("https://api-ssl.bitly.com/v3/shorten");
 
-            byte[] data = Encoding.UTF8.GetBytes(string.Format("login={0}&apiKey={1}&longUrl={2}&format={3}",
-             userName,                            
-             password,                             
-             HttpUtility.UrlEncode(urlToShorten),         
+            var data = Encoding.UTF8.GetBytes(string.Format("access_token={0}&longUrl={1}&format={2}",
+             token,
+             System.Web.HttpUtility.UrlEncode(urlToShorten),         
              "xml"));                                    
 
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
             request.ContentLength = data.Length;
 
-            using (Stream ds = request.GetRequestStream())
+            using (var ds = request.GetRequestStream())
             {
                 ds.Write(data, 0, data.Length);
             }
-            using (WebResponse response = request.GetResponse())
+
+            using (var response = request.GetResponse())
             {
-                using (StreamReader sr = new StreamReader(response.GetResponseStream()))
+                using (var sr = new StreamReader(response.GetResponseStream()))
                 {
                     xmlDoc.LoadXml(sr.ReadToEnd());
                 }
@@ -63,12 +70,16 @@ namespace Abstergo
             Console.ReadKey();
         }
 
-        public static void BitylFromApi() {
+        [TestMethod("Api uzerinden shorten url doner")]
+        public string BitylFromApi(string url) {
             IBitlyService s = new BitlyService(userName,password);
-            if (s.Shorten(urlToShorten, out shortUrl) == StatusCode.OK) {
+           
+            if (s.Shorten(url, out shortUrl) == StatusCode.OK) {
                 Console.WriteLine(shortUrl);
                 Console.ReadKey();
             }
+
+            return shortUrl;
         }
     }
 }

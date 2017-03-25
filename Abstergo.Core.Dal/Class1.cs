@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstergo
+namespace Abstergo.Core.Dal
 {
-    class PasswordManager
+    public class Class1
     {
     }
 }
