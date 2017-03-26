@@ -49,6 +49,10 @@
       <Project>{64c75600-f6f5-4d39-9812-d59a7cbf0756}</Project>
       <Name>Abstergo.Core.Service</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Abstergo.Entities\Abstergo.Entities.csproj">
+      <Project>{a8f5095c-49fa-4837-b5b8-6b11e026d6da}</Project>
+      <Name>Abstergo.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

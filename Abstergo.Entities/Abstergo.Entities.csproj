@@ -50,6 +50,7 @@
     <Compile Include="Shared\TestMethod.cs" />
     <Compile Include="Enums\LogStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Args\ArgsUser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

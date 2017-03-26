@@ -102,10 +102,6 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Abstergo.Dal\Abstergo.Imp.Dal.csproj">
-      <Project>{2539c272-4d79-440a-842f-59cbab49b0a5}</Project>
-      <Name>Abstergo.Imp.Dal</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Abstergo.Entities\Abstergo.Entities.csproj">
       <Project>{a8f5095c-49fa-4837-b5b8-6b11e026d6da}</Project>
       <Name>Abstergo.Entities</Name>

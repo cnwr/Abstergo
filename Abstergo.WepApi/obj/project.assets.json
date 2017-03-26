@@ -2,6 +2,33 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
+      "Autofac/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0",
+          "System.ComponentModel": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "Libuv/1.9.1": {
         "type": "package",
         "dependencies": {
@@ -738,6 +765,22 @@
           "lib/netstandard1.3/Microsoft.AspNetCore.Server.Kestrel.dll": {}
         }
       },
+      "Microsoft.AspNetCore.StaticFiles/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "1.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+          "Microsoft.Extensions.WebEncoders": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.WebUtilities/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -1107,6 +1150,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Composite.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.0.0",
+          "System.Runtime.Extensions": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
         }
       },
       "Microsoft.Extensions.FileProviders.Physical/1.1.0": {
@@ -1792,6 +1848,59 @@
             "assetType": "native",
             "rid": "ubuntu.16.10-x64"
           }
+        }
+      },
+      "Swashbuckle.AspNetCore/1.0.0-rc3": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "1.0.0-rc3",
+          "Swashbuckle.AspNetCore.SwaggerGen": "1.0.0-rc3",
+          "Swashbuckle.AspNetCore.SwaggerUI": "1.0.0-rc3"
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/1.0.0-rc3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "1.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/1.0.0-rc3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.DataAnnotations": "1.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "1.0.0-rc3",
+          "System.Xml.XPath": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/1.0.0-rc3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Routing": "1.0.0",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "1.0.0",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Xml.XPath": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -3602,7 +3711,7 @@
           "System.Xml.ReaderWriter": "4.0.11"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Xml.XPath.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.dll": {}
@@ -3630,10 +3739,43 @@
       },
       "Abstergo.Core.Service/1.0.0": {
         "type": "project"
+      },
+      "Abstergo.Entities/1.0.0": {
+        "type": "project"
+      },
+      "Abstergo.Service/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Abstergo.Core.Service": "1.0.0"
+        }
       }
     }
   },
   "libraries": {
+    "Autofac/4.4.0": {
+      "sha512": "L++XOgj2O8r1aM+tKNYqns2mbuVxfyKqUV4CoB2YXOWv/7df6yLF34ktu9yDlOyoGfdKT78vECxuTxBYUDm+bg==",
+      "type": "package",
+      "path": "autofac/4.4.0",
+      "files": [
+        "Autofac.4.4.0.nupkg.sha512",
+        "Autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/4.0.0": {
+      "sha512": "UQP+CkHs6wfjWhisuhSFoG8CNrG8fmYOclFwx/aYNc+He1Qoi8s9UDTSzcPncJ2JOtmZmFRWSLT0jhtT6KmYJg==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/4.0.0",
+      "files": [
+        "autofac.extensions.dependencyinjection.4.0.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "Libuv/1.9.1": {
       "sha512": "uqX2Frwf9PW8MaY7PRNY6HM5BpW1D8oj1EdqzrmbEFD5nH63Yat3aEjN/tws6Tw6Fk7LwmLBvtUh32tTeTaHiA==",
       "type": "package",
@@ -4186,6 +4328,19 @@
         "microsoft.aspnetcore.server.kestrel.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.StaticFiles/1.0.0": {
+      "sha512": "pXiUBJtpO0fIlGEg/ESykhbIZ2+I+9Y+3qXzN19zZDDF+tD88eATg3A5MHMXu/VmqaROLfvpGJmJ6uOLUGsBVQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.staticfiles/1.0.0",
+      "files": [
+        "lib/net451/Microsoft.AspNetCore.StaticFiles.dll",
+        "lib/net451/Microsoft.AspNetCore.StaticFiles.xml",
+        "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.dll",
+        "lib/netstandard1.3/Microsoft.AspNetCore.StaticFiles.xml",
+        "microsoft.aspnetcore.staticfiles.1.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.staticfiles.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.WebUtilities/1.1.1": {
       "sha512": "yxNSN5cpbZei2UIrUL5MTWSUKSA33dAZLrMIF6eE+XYwakxdWwgrbOTJz1gRJ/rUyvMN1Iu6ORcZr1/WMB0tzw==",
       "type": "package",
@@ -4508,6 +4663,17 @@
         "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Composite.xml",
         "microsoft.extensions.fileproviders.composite.1.1.0.nupkg.sha512",
         "microsoft.extensions.fileproviders.composite.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/1.0.0": {
+      "sha512": "mMCI3/BLXAyBCDneqOI4ohETd0IXjbXZdoiCm1dYdnOdV193ByEOCFQ6/Vn9RVdU5UlC4Nn1P4J5Df7pXG/vGg==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.embedded/1.0.0",
+      "files": [
+        "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/netstandard1.0/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "microsoft.extensions.fileproviders.embedded.1.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.nuspec"
       ]
     },
     "Microsoft.Extensions.FileProviders.Physical/1.1.0": {
@@ -5241,6 +5407,54 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Swashbuckle.AspNetCore/1.0.0-rc3": {
+      "sha512": "ct93K1ZG+gN3Air66XeVmLWSUqJmIEOL+oBkTd2bzErakdtiTJtz15bSiW6z4X60yOzGbw0tnPkkE47UT0Ob8g==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/1.0.0-rc3",
+      "files": [
+        "swashbuckle.aspnetcore.1.0.0-rc3.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/1.0.0-rc3": {
+      "sha512": "ITV0plnw+mi3mEHe0Bw1PVIxEsnWnYs0zJzGA3aVV2Nglb9ia1Vi7TChlL1Vaix4PnOYiK1XWDUScUW2L66MGg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/1.0.0-rc3",
+      "files": [
+        "lib/net451/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net451/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.1.0.0-rc3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/1.0.0-rc3": {
+      "sha512": "ZVmQpbXMK0Mtvyi0lTDglmqNZC3B+FreOQ3kyX7pcv0QLPXM7ZtzbAzRq7hT6tu17chPrHSLe/D2mv4TxJ/VPA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/1.0.0-rc3",
+      "files": [
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "swashbuckle.aspnetcore.swaggergen.1.0.0-rc3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/1.0.0-rc3": {
+      "sha512": "ankI8NF1nBhOClQB/Zr/0Omw2Q2LEe8pG9oxAgzzJp6nOJfGsrLmYaZjuI8aL0tzZ4/PiIyKgSzeJc+TZJTghg==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/1.0.0-rc3",
+      "files": [
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net451/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.1.0.0-rc3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -9809,17 +10023,32 @@
       "type": "project",
       "path": "../Abstergo.Core.Service/Abstergo.Core.Service.csproj",
       "msbuildProject": "../Abstergo.Core.Service/Abstergo.Core.Service.csproj"
+    },
+    "Abstergo.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Abstergo.Entities/Abstergo.Entities.csproj",
+      "msbuildProject": "../Abstergo.Entities/Abstergo.Entities.csproj"
+    },
+    "Abstergo.Service/1.0.0": {
+      "type": "project",
+      "path": "../Abstergo.Imp.Service/Abstergo.Service.csproj",
+      "msbuildProject": "../Abstergo.Imp.Service/Abstergo.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "Abstergo.Core.Service >= 1.0.0",
+      "Abstergo.Entities >= 1.0.0",
+      "Abstergo.Service >= 1.0.0",
+      "Autofac >= 4.4.0",
+      "Autofac.Extensions.DependencyInjection >= 4.0.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.1",
       "Microsoft.AspNetCore.Mvc >= 1.1.2",
       "Microsoft.Extensions.Logging.Debug >= 1.1.1",
       "Microsoft.NETCore.App >= 1.1.1",
-      "Microsoft.NETCore.Portable.Compatibility >= 1.0.1"
+      "Microsoft.NETCore.Portable.Compatibility >= 1.0.1",
+      "Swashbuckle.AspNetCore >= 1.0.0-rc3"
     ]
   },
   "packageFolders": {
@@ -9839,8 +10068,14 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
+            "C:\\Projects\\Abstergo\\Abstergo.Imp.Service\\Abstergo.Service.csproj": {
+              "projectPath": "C:\\Projects\\Abstergo\\Abstergo.Imp.Service\\Abstergo.Service.csproj"
+            },
             "C:\\Projects\\Abstergo\\Abstergo.Core.Service\\Abstergo.Core.Service.csproj": {
               "projectPath": "C:\\Projects\\Abstergo\\Abstergo.Core.Service\\Abstergo.Core.Service.csproj"
+            },
+            "C:\\Projects\\Abstergo\\Abstergo.Entities\\Abstergo.Entities.csproj": {
+              "projectPath": "C:\\Projects\\Abstergo\\Abstergo.Entities\\Abstergo.Entities.csproj"
             }
           }
         }
@@ -9857,10 +10092,18 @@
             "target": "Package",
             "version": "1.1.1"
           },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "4.0.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "1.1.1",
             "autoReferenced": true
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "1.0.0-rc3"
           },
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
@@ -9873,6 +10116,10 @@
           "Microsoft.NETCore.Portable.Compatibility": {
             "target": "Package",
             "version": "1.0.1"
+          },
+          "Autofac": {
+            "target": "Package",
+            "version": "4.4.0"
           }
         }
       }

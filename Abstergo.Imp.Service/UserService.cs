@@ -1,4 +1,5 @@
 ﻿using Abstergo.Core.Service;
+using Abstergo.Entities.Args;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,9 @@ namespace Abstergo.Imp.Service
 {
     public class UserService : IUserService
     {
-        public async Task<string> GetUsersAsync()
+        public async Task<IEnumerable<ArgsUser>> GetUsersAsync()
         {
-            return "gokhanow";
+            
         }
     }
 }

@@ -9,3 +9,6 @@ C:\Projects\Abstergo\Abstergo.WepApi\obj\Debug\netcoreapp1.1\Abstergo.WepApi.csp
 C:\Projects\Abstergo\Abstergo.WepApi\obj\Debug\netcoreapp1.1\Abstergo.WepApi.AssemblyInfo.cs
 C:\Projects\Abstergo\Abstergo.WepApi\obj\Debug\netcoreapp1.1\Abstergo.WepApi.dll
 C:\Projects\Abstergo\Abstergo.WepApi\obj\Debug\netcoreapp1.1\Abstergo.WepApi.pdb
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Debug\netcoreapp1.1\Abstergo.Imp.Service.dll
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Debug\netcoreapp1.1\Abstergo.Imp.Service.pdb
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Debug\netcoreapp1.1\.xml

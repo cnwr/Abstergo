@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Core", "Abstergo.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Entities", "Abstergo.Entities\Abstergo.Entities.csproj", "{A8F5095C-49FA-4837-B5B8-6B11E026D6DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Imp.Dal", "Abstergo.Dal\Abstergo.Imp.Dal.csproj", "{2539C272-4D79-440A-842F-59CBAB49B0A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Dal", "Abstergo.Dal\Abstergo.Dal.csproj", "{2539C272-4D79-440A-842F-59CBAB49B0A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{79D851DB-2F9E-4191-B6F5-0355A14B73A4}"
 EndProject
@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imp", "Imp", "{3B46F429-997
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Core.Service", "Abstergo.Core.Service\Abstergo.Core.Service.csproj", "{64C75600-F6F5-4D39-9812-D59A7CBF0756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Imp.Service", "Abstergo.Imp.Service\Abstergo.Imp.Service.csproj", "{82033E6A-BF00-4CF7-8F5E-53C1B2F2DF15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Service", "Abstergo.Imp.Service\Abstergo.Service.csproj", "{82033E6A-BF00-4CF7-8F5E-53C1B2F2DF15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Core.Dal", "Abstergo.Core.Dal\Abstergo.Core.Dal.csproj", "{5C4AC745-AEBA-47A9-A29A-5D18879C8D28}"
 EndProject

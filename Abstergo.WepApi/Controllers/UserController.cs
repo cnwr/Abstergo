@@ -4,39 +4,45 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Abstergo.Core.Service;
+using Abstergo.Entities.Args;
 
 namespace Abstergo.WepApi.Controllers
 {
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        private readonly IUserService deneme;
-        // GET api/values
+        private readonly IUserService _service;
+
+        public UserController(IUserService service)
+        {
+            this._service = service;
+        }
+
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "Gokhan", "Gorlen" };
         }
 
-        // GET api/values/5
         [HttpGet("{id}")]
-        public async Task<string> Get(int id)
-            => await deneme.GetUsersAsync();
-        
+        public async Task<string> Get([FromQuery]int id)
+            => await _service.GetUsersAsync();
 
-        // POST api/values
+
         [HttpPost]
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT api/values/5
+        [HttpGet]
+        public async Task<IEnumerable<ArgsUser>> GetUsers()
+            => await _service.GetUsersAsync();
+
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

@@ -11,3 +11,16 @@ C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Dal\
 C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver1.resources
 C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.csproj.GenerateResource.Cache
 C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver2.resources
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\Abstergo.Dal.dll.config
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\Abstergo.Dal.dll
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\Abstergo.Dal.pdb
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.dll
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.xml
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.csprojResolveAssemblyReference.cache
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver1.resources
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver2.resources
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.csproj.GenerateResource.Cache
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.dll
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.pdb

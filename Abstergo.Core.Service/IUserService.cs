@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Abstergo.Entities.Args;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace Abstergo.Core.Service
 {
     public interface IUserService
     {
-        Task<string> GetUsersAsync();
+        Task<IEnumerable<ArgsUser>> GetUsersAsync();
     }
 }
