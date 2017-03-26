@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Core", "Abstergo.Core\Abstergo.Core.csproj", "{E9C15B8A-4C78-4DA6-9CCC-D02C52D86D4C}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Imp.Service", "Abstergo.Imp.Service\Abstergo.Imp.Service.csproj", "{82033E6A-BF00-4CF7-8F5E-53C1B2F2DF15}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.Core.Dal", "Abstergo.Core.Dal\Abstergo.Core.Dal.csproj", "{5C4AC745-AEBA-47A9-A29A-5D18879C8D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstergo.WepApi", "Abstergo.WepApi\Abstergo.WepApi.csproj", "{02F63F0A-5C29-456A-993E-420EAD9535DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{5C4AC745-AEBA-47A9-A29A-5D18879C8D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4AC745-AEBA-47A9-A29A-5D18879C8D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4AC745-AEBA-47A9-A29A-5D18879C8D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F63F0A-5C29-456A-993E-420EAD9535DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F63F0A-5C29-456A-993E-420EAD9535DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F63F0A-5C29-456A-993E-420EAD9535DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F63F0A-5C29-456A-993E-420EAD9535DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

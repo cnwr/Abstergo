@@ -48,3 +48,4 @@ C:\Projects\Abstergo\Abstergo.Core\bin\Debug\EntityFramework.xml
 C:\Projects\Abstergo\Abstergo.Core\obj\Debug\Abstergo.Core.csprojResolveAssemblyReference.cache
 C:\Projects\Abstergo\Abstergo.Core\obj\Debug\Abstergo.Core.dll
 C:\Projects\Abstergo\Abstergo.Core\obj\Debug\Abstergo.Core.pdb
+C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Dal.dll.config
