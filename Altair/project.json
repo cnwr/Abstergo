@@ -40,6 +40,10 @@
       "System.GC.Server": true
     }
   },
+  
+    "sdk": {
+      "version": "your_preview2_cli_version"
+    },
 
   "publishOptions": {
     "include": [
