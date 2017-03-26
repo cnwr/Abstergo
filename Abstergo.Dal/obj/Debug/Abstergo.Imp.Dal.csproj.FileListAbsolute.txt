@@ -5,7 +5,6 @@ C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.dll
 C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.SqlServer.dll
 C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.xml
 C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\EntityFramework.SqlServer.xml
-C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Imp.Dal.csprojResolveAssemblyReference.cache
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver1.resources
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver2.resources
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Imp.Dal.csproj.GenerateResource.Cache

@@ -38,6 +38,7 @@ C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.presentation.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\EntityFramework.dll
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Dal.pdb
+C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Dal.dll.config
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Entities.pdb
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\RestSharp.xml
 C:\Projects\Abstergo\Abstergo.Core\bin\Debug\zxing.pdb
@@ -48,4 +49,3 @@ C:\Projects\Abstergo\Abstergo.Core\bin\Debug\EntityFramework.xml
 C:\Projects\Abstergo\Abstergo.Core\obj\Debug\Abstergo.Core.csprojResolveAssemblyReference.cache
 C:\Projects\Abstergo\Abstergo.Core\obj\Debug\Abstergo.Core.dll
 C:\Projects\Abstergo\Abstergo.Core\obj\Debug\Abstergo.Core.pdb
-C:\Projects\Abstergo\Abstergo.Core\bin\Debug\Abstergo.Dal.dll.config

@@ -1,5 +1,4 @@
 C:\Projects\Abstergo\Abstergo.Core.Dal\bin\Debug\Abstergo.Core.Dal.dll
 C:\Projects\Abstergo\Abstergo.Core.Dal\bin\Debug\Abstergo.Core.Dal.pdb
-C:\Projects\Abstergo\Abstergo.Core.Dal\obj\Debug\Abstergo.Core.Dal.csprojResolveAssemblyReference.cache
 C:\Projects\Abstergo\Abstergo.Core.Dal\obj\Debug\Abstergo.Core.Dal.dll
 C:\Projects\Abstergo\Abstergo.Core.Dal\obj\Debug\Abstergo.Core.Dal.pdb
