@@ -1,15 +1,7 @@
 version: '1.0.{build}'
 configuration:
 - Debug
-- Release
 platform: Any CPU
-
-environment:
-  matrix:
-  - platform: x64
-    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
-  - platform: x64
-    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
 init:
 - ps: $Env:LABEL = "CI" + $Env:APPVEYOR_BUILD_NUMBER.PadLeft(5, "0")
 before_build:
