@@ -1,4 +1,5 @@
 version: 1.0.{build}
 build:
   verbosity: minimal
-  image: Visual Studio 2017 RC
+
+image: Visual Studio 2017 RC
