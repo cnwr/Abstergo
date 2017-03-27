@@ -3,9 +3,13 @@ configuration:
 - Debug
 - Release
 platform: Any CPU
+
 environment:
-  # Don't report back to the mothership
-  DOTNET_CLI_TELEMETRY_OPTOUT: 1
+  matrix:
+  - platform: x64
+    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
+  - platform: x64
+    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
 init:
 - ps: $Env:LABEL = "CI" + $Env:APPVEYOR_BUILD_NUMBER.PadLeft(5, "0")
 before_build:
@@ -13,3 +17,4 @@ before_build:
 
 cache:
 - '%USERPROFILE%\.nuget\packages'
+image: Visual Studio 2017
