@@ -23,3 +23,4 @@ C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver2.resourc
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.csproj.GenerateResource.Cache
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.dll
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.pdb
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.csprojResolveAssemblyReference.cache

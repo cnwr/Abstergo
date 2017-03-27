@@ -7,3 +7,4 @@ C:\Projects\Abstergo\Abstergo.Entities\bin\Debug\Abstergo.Entities.dll
 C:\Projects\Abstergo\Abstergo.Entities\bin\Debug\Abstergo.Entities.pdb
 C:\Projects\Abstergo\Abstergo.Entities\obj\Debug\Abstergo.Entities.dll
 C:\Projects\Abstergo\Abstergo.Entities\obj\Debug\Abstergo.Entities.pdb
+C:\Projects\Abstergo\Abstergo.Entities\obj\Debug\Abstergo.Entities.csprojResolveAssemblyReference.cache
