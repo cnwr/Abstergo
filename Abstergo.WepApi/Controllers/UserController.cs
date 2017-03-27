@@ -3,46 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Abstergo.Core.Service;
-using Abstergo.Entities.Args;
 
 namespace Abstergo.WepApi.Controllers
 {
     [Route("api/[controller]")]
     public class UserController : Controller
     {
-        private readonly IUserService _service;
-
-        public UserController(IUserService service)
-        {
-            this._service = service;
-        }
-
+        // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Gokhan", "Gorlen" };
+            return new string[] { "value1", "value2" };
         }
 
+        // GET api/values/5
         [HttpGet("{id}")]
-        public async Task<string> Get([FromQuery]int id)
-            => await _service.GetUsersAsync();
+        public string Get(int id)
+        {
+            return "value";
+        }
 
-
+        /// <summary>
+        /// This method returns the found documents from Elasticsearch
+        /// </summary>
+        /// <param name="value">center Longitude </param>
+        /// <param name="id">center Latitude </param>
+        /// <returns>All the documents which were found</returns>
+        // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]string value,[FromQuery]int id)
         {
         }
 
-        [HttpGet]
-        public async Task<IEnumerable<ArgsUser>> GetUsers()
-            => await _service.GetUsersAsync();
-
+        // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
         }
 
+        // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

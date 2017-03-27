@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netcoreapp1.1\.xml</DocumentationFile>
+    <DocumentationFile>.\bin\netcoreapp1.1\Abstergo.xml</DocumentationFile>
+    <OutputPath>.\bin\netcoreapp1.1</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

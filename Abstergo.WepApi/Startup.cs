@@ -11,8 +11,9 @@ using Abstergo.Core.Service;
 using Abstergo.Imp.Service;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Swashbuckle;
 using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.Extensions.PlatformAbstractions;
+using System.IO;
 
 namespace Abstergo.WepApi
 {
@@ -42,6 +43,11 @@ namespace Abstergo.WepApi
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "Abstergo WebApi", Version = "v1" });
+                //Set the comments path for the swagger json and ui.
+                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+                var xmlPath = Path.Combine(basePath, "Abstergo.xml");
+                c.IncludeXmlComments(xmlPath);
+                c.DescribeAllEnumsAsStrings();
             });
 
             // Create the container builder.
@@ -72,11 +78,14 @@ namespace Abstergo.WepApi
             loggerFactory.AddDebug();
 
             app.UseMvc();
-            app.UseSwagger();
+            app.UseSwagger(c =>
+            {
+                c.PreSerializeFilters.Add((swagger, httpReq) => swagger.Host = httpReq.Host.Value);
+            });
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs");
             });
 
 
@@ -87,7 +96,7 @@ namespace Abstergo.WepApi
 
         public void RegisterDependencies(ContainerBuilder builder)
         {
-            builder.RegisterType<UserService>().As<IUserService>();
+             builder.RegisterType<UserService>().As<IUserService>();
         }
     }
 }

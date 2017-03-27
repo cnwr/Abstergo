@@ -5,3 +5,5 @@ C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Debug\Abstergo.Core.Service.pdb
 C:\Projects\Abstergo\Abstergo.Imp.Service\obj\Debug\Abstergo.Service.csprojResolveAssemblyReference.cache
 C:\Projects\Abstergo\Abstergo.Imp.Service\obj\Debug\Abstergo.Imp.Service.dll
 C:\Projects\Abstergo\Abstergo.Imp.Service\obj\Debug\Abstergo.Imp.Service.pdb
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Debug\Abstergo.Entities.dll
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Debug\Abstergo.Entities.pdb

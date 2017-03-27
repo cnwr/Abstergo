@@ -12,7 +12,7 @@ namespace Abstergo.Imp.Service
     {
         public async Task<IEnumerable<ArgsUser>> GetUsersAsync()
         {
-            
+            return new List<ArgsUser>();
         }
     }
 }

@@ -23,9 +23,15 @@ namespace Abstergo.WepApi.Controllers
             return "value";
         }
 
+        /// <summary>
+        /// This method returns the found documents from Elasticsearch
+        /// </summary>
+        /// <param name="value">center Longitude </param>
+        /// <param name="id">center Latitude </param>
+        /// <returns>All the documents which were found</returns>
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void Post([FromBody]string value,[FromQuery]int id)
         {
         }
 

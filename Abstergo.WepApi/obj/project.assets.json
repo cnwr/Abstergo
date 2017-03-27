@@ -3738,7 +3738,10 @@
         }
       },
       "Abstergo.Core.Service/1.0.0": {
-        "type": "project"
+        "type": "project",
+        "dependencies": {
+          "Abstergo.Entities": "1.0.0"
+        }
       },
       "Abstergo.Entities/1.0.0": {
         "type": "project"
@@ -3746,7 +3749,8 @@
       "Abstergo.Service/1.0.0": {
         "type": "project",
         "dependencies": {
-          "Abstergo.Core.Service": "1.0.0"
+          "Abstergo.Core.Service": "1.0.0",
+          "Abstergo.Entities": "1.0.0"
         }
       }
     }

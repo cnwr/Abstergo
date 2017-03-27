@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Abstergo.WepApi</name>
+    </assembly>
+    <members>
+        <member name="M:Abstergo.WepApi.Controllers.UserController.Post(System.String,System.Int32)">
+            <summary>
+            This method returns the found documents from Elasticsearch
+            </summary>
+            <param name="value">center Longitude </param>
+            <param name="id">center Latitude </param>
+            <returns>All the documents which were found</returns>
+        </member>
+        <member name="M:Abstergo.WepApi.Controllers.ValuesController.Post(System.String,System.Int32)">
+            <summary>
+            This method returns the found documents from Elasticsearch
+            </summary>
+            <param name="value">center Longitude </param>
+            <param name="id">center Latitude </param>
+            <returns>All the documents which were found</returns>
+        </member>
+    </members>
+</doc>
