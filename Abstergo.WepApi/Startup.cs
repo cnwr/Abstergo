@@ -52,18 +52,14 @@ namespace Abstergo.WepApi
 
             // Create the container builder.
             var builder = new ContainerBuilder();
-
-            // Register dependencies, populate the services from
-            // the collection, and build the container. If you want
-            // to dispose of the container at the end of the app,
-            // be sure to keep a reference to it as a property or field.
-            this.RegisterDependencies(builder);
-
+            builder.RegisterType<UserService>()
+                .As<IUserService>()
+                .InstancePerDependency();
             builder.Populate(services);
-            this.ApplicationContainer = builder.Build();
 
-            // Create the IServiceProvider based on the container.
-            return new AutofacServiceProvider(this.ApplicationContainer);
+            var container = builder.Build();
+
+            return container.Resolve<IServiceProvider>();
         }
 
         // Configure is where you add middleware. This is called after
@@ -96,7 +92,7 @@ namespace Abstergo.WepApi
 
         public void RegisterDependencies(ContainerBuilder builder)
         {
-             builder.RegisterType<UserService>().As<IUserService>();
+            builder.RegisterType<UserService>().As<IUserService>();
         }
     }
 }

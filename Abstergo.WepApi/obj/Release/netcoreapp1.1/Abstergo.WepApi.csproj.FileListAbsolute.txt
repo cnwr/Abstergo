@@ -1,0 +1,15 @@
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.WepApi.deps.json
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.WepApi.runtimeconfig.json
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.WepApi.runtimeconfig.dev.json
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.WepApi.dll
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.WepApi.pdb
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.Core.Service.dll
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.Entities.dll
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.Imp.Service.dll
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.Core.Service.pdb
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.Entities.pdb
+C:\Projects\Abstergo\Abstergo.WepApi\bin\Release\netcoreapp1.1\Abstergo.Imp.Service.pdb
+C:\Projects\Abstergo\Abstergo.WepApi\obj\Release\netcoreapp1.1\Abstergo.WepApi.csprojResolveAssemblyReference.cache
+C:\Projects\Abstergo\Abstergo.WepApi\obj\Release\netcoreapp1.1\Abstergo.WepApi.AssemblyInfo.cs
+C:\Projects\Abstergo\Abstergo.WepApi\obj\Release\netcoreapp1.1\Abstergo.WepApi.dll
+C:\Projects\Abstergo\Abstergo.WepApi\obj\Release\netcoreapp1.1\Abstergo.WepApi.pdb

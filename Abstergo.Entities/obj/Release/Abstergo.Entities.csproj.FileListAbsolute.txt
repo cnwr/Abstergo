@@ -3,3 +3,8 @@ C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Enti
 C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Entities\obj\Release\Abstergo.Entities.csprojResolveAssemblyReference.cache
 C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Entities\obj\Release\Abstergo.Entities.dll
 C:\Users\ExtGokhanG\Documents\Visual Studio 2015\Projects\Abstergo\Abstergo.Entities\obj\Release\Abstergo.Entities.pdb
+C:\Projects\Abstergo\Abstergo.Entities\bin\Release\Abstergo.Entities.dll
+C:\Projects\Abstergo\Abstergo.Entities\bin\Release\Abstergo.Entities.pdb
+C:\Projects\Abstergo\Abstergo.Entities\obj\Release\Abstergo.Entities.csprojResolveAssemblyReference.cache
+C:\Projects\Abstergo\Abstergo.Entities\obj\Release\Abstergo.Entities.dll
+C:\Projects\Abstergo\Abstergo.Entities\obj\Release\Abstergo.Entities.pdb

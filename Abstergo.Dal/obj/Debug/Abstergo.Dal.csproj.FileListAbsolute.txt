@@ -24,3 +24,6 @@ C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.csproj.GenerateResource
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.dll
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.pdb
 C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.csprojResolveAssemblyReference.cache
+C:\Projects\Abstergo\Abstergo.Dal\obj\Debug\Abstergo.Dal.Migrations.ver3.resources
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\Abstergo.Core.Dal.dll
+C:\Projects\Abstergo\Abstergo.Dal\bin\Debug\Abstergo.Core.Dal.pdb

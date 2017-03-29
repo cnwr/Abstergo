@@ -3,18 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Abstergo.Core.Service;
+using Abstergo.Entities.Args;
 
 namespace Abstergo.WepApi.Controllers
 {
     [Route("api/[controller]")]
     public class UserController : Controller
     {
+        //private IUserService _service;
+
+        //public UserController(IUserService service) {
+        //    _service = service;
+        //}
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
+
+        //[HttpGet]
+        //public async Task<IEnumerable<ArgsUser>> GetUsers()
+        //   => await _service.GetUsersAsync();
+        
 
         // GET api/values/5
         [HttpGet("{id}")]

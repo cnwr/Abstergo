@@ -8,8 +8,8 @@ namespace Abstergo.Core.Dal
 {
     public interface IDbContext : IDisposable
     {
-        ISet<TEntity> Set<TEntity>() where TEntity : class;
-
+        IDbSet<T> Set<T>() where T : class;
+        IQueryable SetAsQueryable(Type entityType);
         Task<int> SaveChangesAsync();
     }
 }

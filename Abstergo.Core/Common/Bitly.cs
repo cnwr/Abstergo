@@ -19,9 +19,9 @@ namespace Abstergo.Core.Common
 {
     class Bitly
     {   
-        private const string password = "R_b2332506d9fe495ca8999cbd6a58047e";
-        private const string userName = "o_2get038h6b";
-        private const string token = "2fd5c5dfb2bc3451367030c3c19f73d95f7f6fe2";
+        private const string password = "**";
+        private const string userName = "**";
+        private const string token = "***";
         private const string urlToShorten = "http://google.com";
 
         private static string statusCode = string.Empty;

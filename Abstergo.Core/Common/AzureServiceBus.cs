@@ -13,10 +13,10 @@ namespace Abstergo.Core.Common
 {
     class AzureServiceBus
     {
-        private const string _connectionString = @"Endpoint=sb://pozitiftest.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=YkPF+AMquMByODpRawY+M5HYu7gDm0qwiVJdlvJHvgM=";
-        private const string _queueName = "pozitiftestqueue1";
-        private const string _issuerName = "RootManageSharedAccessKey";
-        private const string _issuerSecret = @"H/dPOCilXY5Dxk1FMCf1RgHLpGJAToJBU0uye4eEnuE";
+        private const string _connectionString = @"**";
+        private const string _queueName = "**";
+        private const string _issuerName = "***";
+        private const string _issuerSecret = @"****";
 
         [TestMethod("Azure Servicebus Que baglanarak mesaj gonderir")]
         public void SendQueueMessage(string message = "Hi Guys")

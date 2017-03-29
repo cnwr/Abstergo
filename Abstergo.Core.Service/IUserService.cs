@@ -10,5 +10,7 @@ namespace Abstergo.Core.Service
     public interface IUserService
     {
         Task<IEnumerable<ArgsUser>> GetUsersAsync();
+
+        Task<string> GetUserByUserName(string userName);
     }
 }

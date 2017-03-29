@@ -1,0 +1,9 @@
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Release\Abstergo.Imp.Service.dll
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Release\Abstergo.Imp.Service.pdb
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Release\Abstergo.Core.Service.dll
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Release\Abstergo.Entities.dll
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Release\Abstergo.Core.Service.pdb
+C:\Projects\Abstergo\Abstergo.Imp.Service\bin\Release\Abstergo.Entities.pdb
+C:\Projects\Abstergo\Abstergo.Imp.Service\obj\Release\Abstergo.Service.csprojResolveAssemblyReference.cache
+C:\Projects\Abstergo\Abstergo.Imp.Service\obj\Release\Abstergo.Imp.Service.dll
+C:\Projects\Abstergo\Abstergo.Imp.Service\obj\Release\Abstergo.Imp.Service.pdb
